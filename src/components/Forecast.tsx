@@ -16,7 +16,7 @@ const Forecast = ({ data }: Props): JSX.Element => {
     const today = data.list[0]
 
     return (
-        // lg:h-full
+        
         <div className="w-full md:max-w-[500px] py-4 md:py-4 md:px-10 lg:px-24
         h-full lg:h-auto bg-white bg-opacity-20 backdrop-blur-lg drop-shadow-lg rounded">
 
